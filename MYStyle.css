@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    background-color: #152432;
+}
+.homePart{
+    background-color: #20364b;
+    margin:0px;
+    height: 700px;
+    width:100%;
+}
+.logo{
+    width:35%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.search{
+    width:7%;
+   /* margin-top: 20px;*/
+    padding-left: 40px;
+}
+
+.nav{
+    display:inline-block;
+    position: absolute;
+    top:20px;
+    left: 55%;
+}
+
+ul{
+list-style-type: none;
+display: inline-block;  
+margin-top:40px;
+font-family: sans-serif;
+position: sticky;
+overflow: hidden;
+width: 77%;
+background-color: #20364b;
+  }
+option{
+    background-color: #20364b;  
+}
+li{
+    float: left;
+}
+
+li:hover{ 
+    background-color: #a5abb03c;
+}
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 10px 15px;
+   text-decoration: none;
+    }
+
+.home {
+   text-decoration: underline #fdc11f;
+    }
+
+    .serve{
+        width: 25%;
+        margin-top: 10px;
+        padding-left: 10px;
+        border: none;
+        color:white;
+        background-color: #20364b;
+        border: none;
+        vertical-align: top;
+        font-size: 17px;
+     }
+     .serve:hover{ 
+        background-color: #a5abb03c;
+    }
+
+    .p1{
+        color:#fdc11f;
+        margin-left:120px;
+        font-size: 40px;
+        font-weight:900;
+        font-family: sans-serif;
+        padding-top:80px;
+
+     }
+
+    .p2{
+        color:white;
+        margin-left:120px;
+        font-size: 40px;
+        font-weight:900;
+        font-family: sans-serif;
+        margin-top:-40px;
+     }
+
+     .p3{
+        color:rgba(255, 255, 255, 0.689);
+        margin-left:120px;
+        margin-top:-10px;
+        font-family: sans-serif;
+        font-size: 13px;
+     }
+
+.back{
+    display:inline-block;
+    position: absolute;
+    top:20%;
+    left:35%;
+}
+
+.sub{
+    margin-left:120px;
+    margin-top:30px;
+}
+
+.send{
+    background-color: #fdc11f;
+    border-radius: 23px;
+    color:#20364b;
+    font-weight:bold;
+    border:none;
+    width:110px;
+    height: 30px;
+    margin-top:20px;
+}
+
+ .name{
+    width: 20%;
+    color:#20364b;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 23px;
+     }
+ 
+.mail1{
+    width: 23%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    color:#20364b;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 23px;
+    }
+   
+#loginPart{
+    height:700px;
+    margin-left:-100px;
+    background-color:#25435f;
+    }
+
+    .login{
+        background-color:white; 
+        position: absolute;
+        top:1000px;
+        left:600px;
+        width:20%; 
+        height: 25%; 
+        padding-bottom: 5%; 
+         
+        padding-left:2%;
+        box-shadow: 3px 3px 10px #fdc21f13; 
+    }
+
+.btnLogin{
+    background-color: #fdc11f;
+    color:#20364b;
+    font-weight:bold;
+    border:none;
+    width:270px;
+    height: 30px;
+    margin-top:-30px;
+    }
+
+    #regester{
+        font-size: 15px;
+        font-family: Sans-serif;
+        border-radius: 4px;
+        background-color: white;
+        display: inline-block;
+        width: 53%;
+        height: 80%;
+        margin-left: 290px;
+        margin-top: 65px;
+        margin-right: auto;
+        padding-left: 65px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+        }
+    
+    .name2{
+        width: 55%;
+        box-sizing: border-box;
+        color:#696767;
+        border: none;
+        padding: 12px 20px;
+        margin-left: 15px;
+        border-bottom: 1px solid #b3b2b2;
+        border-radius: 4px;
+        }
+    
+    .mail2{
+        width: 55%;
+        margin-left: 15px;
+        padding: 12px 20px;
+        color:#696767;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #b3b2b2;
+        border-radius: 4px;
+        }
+    
+    .pas{
+        width: 55%;
+        margin-left: 15px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        color:#696767;
+        border: none;
+        border-bottom: 1px solid #b3b2b2;
+        border-radius: 4px;
+        }
+    
+    .btn {
+      background-color: #fdc11f;
+      border: none;
+      color:#20364b;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 90%;
+      border-radius: 4px;
+      box-shadow: 0 0 8px #fdc11f9c;
+    }
+
+    #contactPart{
+        background-image: url("images/people.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .cont{
+        font-size: 19px;
+        font-family: Sans-serif;
+        background-color: #20364bd4;
+        height: 600px;
+        padding-left: 300px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        }
+    
+    .con{
+        display: inline-block;
+        color:white;
+        width:800px;
+        height: 660px;
+        vertical-align: top;
+        text-align: center;
+        }
+    
+    .name3{
+        width: 70%;
+        box-sizing: border-box;
+        color:#696767;
+        padding: 12px 10px;
+        padding-left: 20px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        border: 1px solid #b3b2b2;
+        border-radius: 4px;
+        }
+    textarea{
+        border-width:1px;
+        border-color:#b3b2b2;
+        border-radius: 5px;
+        margin-top:12px;
+        margin-left:100px;
+        padding-top:10px;
+        padding-left: 15px;
+        font-size: 16px;
+        color: #696767;
+        resize: none;
+        width: 67%;
+        height: 20%;
+        }
+
+    
+    #country{
+        width: 70%;
+        height:6%;
+        margin-left: 100px;
+        margin-top:12px;
+        margin-bottom: 12px;
+        padding-left: 45px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        border: 1px solid #b3b2b2;   
+        }
+        
+    input[type="submit"]{
+      background-color: #fdc11f; 
+      width:69%;
+      border: none;
+      color: #20364b;
+      padding: 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top:12px;
+      margin-left:100px;
+      cursor: pointer;
+      border-radius: 2px;
+        }
